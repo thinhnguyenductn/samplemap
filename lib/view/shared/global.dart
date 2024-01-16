@@ -2,20 +2,21 @@ import 'package:flutter/material.dart';
 
 abstract class Global {
   static const Color blue = const Color(0xff4A64FE);
+  static const Color blue2 = const Color(0xff7A00FE);
 
   static const List lights = [
     {
       'location': 'Kitchen',
       'name': 'LED001',
       'status': false,
-      'position': [0.0, 0.0],
+      'position': [0.15, 0.15],
       'tile': 1,
     },
     {
       'location': 'Office 01',
       'name': 'LED002',
       'status': true,
-      'position': [-0.07, 0.0],
+      'position': [-0.1, 0.0],
       'tile': 2,
     },
     {

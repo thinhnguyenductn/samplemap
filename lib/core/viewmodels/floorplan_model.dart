@@ -32,7 +32,7 @@ class FloorPlanModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  final List<Light> _lights = Global.lights.map((item) => Light.fromMap(item)).toList();
+  final List<Light> _lights = Global. lights.map((item) => Light.fromMap(item)).toList();
   List<Light> get lights => _lights;
 
   void handleDragScaleStart(ScaleStartDetails details) {
